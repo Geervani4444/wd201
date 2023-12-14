@@ -80,5 +80,5 @@ describe("todoList", () => {
         .slice(0, 10),
       });
     expect(dueLater().length).toEqual(dueLaterTodoItemsCount+1);
-  });
+  });
 });
